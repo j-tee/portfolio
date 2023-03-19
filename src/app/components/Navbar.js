@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-sm navbar-light bg-primary">
         <div className="container-fluid">
           <NavLink
-            to="/portfolio"
+            to="/"
             className="nav-link active"
           >
             HOME
@@ -19,7 +19,7 @@ function Navbar() {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className='nav-item'>
                 <NavLink
-                  to="/portfolio"
+                  to="/about"
                   className="nav-link active"
                 >
                   ABOUT

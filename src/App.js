@@ -6,12 +6,14 @@ import {
   Routes,
   Route
 } from 'react-router-dom';
+import About from './app/components/About';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
     </Router>
   );

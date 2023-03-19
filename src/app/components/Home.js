@@ -22,15 +22,17 @@ function Home() {
               <Carousel className="carousel-container">
                 <Carousel.Item className='item'>
                   <p>
-                    My experience at Microverse has greatly improved my front-end development skills.
-                    I worked on a number of exercises including weekly projects that were focused on front-end technologies such as CSS, javascript, and HTML.
-                    I have had experience in other front-end technologies such as react and bootstrap.
+                    My experience at Microverse has greatly improved skills in both front and backend-end development.
+                    I worked on a number of weekly projects that were focused on fullstack development using 
+                    CSS, javascript, HTML and combination of frameworks such as ReactJS and Ruby On Rails.
+                    Other technologies I have experience in includes Angular and .NetCore MVC and WebAPI and database 
+                    management systems such as MSSQL, MySQL and PostgreSQL.
                   </p>
                 </Carousel.Item>
                 <Carousel.Item className='item'>
                   <p>
-                    The Microverse experience is a hands-on student-centered program. This approach helped me cultivate relevant
-                    skills in researching and learning new concepts.
+                    The Microverse experience is a hands-on student-centered program. This approach helped me cultivate 
+                    relevant skills in researching and learning new concepts.
                     As an online school, learning requires remote collaboration with other students across the globe on various
                     projects. This experience has improved my collaborative and remote working skills,
                   </p>
