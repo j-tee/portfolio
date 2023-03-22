@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Navbar from './Navbar';
 import { Carousel } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
               <h1>Hello, My name is Tetteh Julius (TeeJay)</h1>
               <p>I am a Fullstack web developer and a graduate of Microverse with experience in building beautiful and responsive web applications.</p>
 
-              <button className="btn btn-primary">View Projects</button>
+              <NavLink to="/portfolio" className="btn btn-primary">View Projects</NavLink>
+
             </div>
           </Col>
           <Col md={6}>
