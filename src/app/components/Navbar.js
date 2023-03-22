@@ -1,8 +1,8 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import { Github, Linkedin } from "react-bootstrap-icons";
-import { FaAngellist } from "react-icons/fa";
-import { SiTwitter } from "react-icons/si";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import { Github, Linkedin } from 'react-bootstrap-icons';
+import { FaAngellist } from 'react-icons/fa';
+import { SiTwitter } from 'react-icons/si';
 
 function Navbar() {
   return (
@@ -70,12 +70,12 @@ function Navbar() {
                 </a>
               </li>
               <li>
-              <a
+                <a
                   href="https://twitter.com/JuliusTee"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                <SiTwitter size={24} color="white" />
+                  <SiTwitter size={24} color="white" />
                 </a>
               </li>
             </ul>
