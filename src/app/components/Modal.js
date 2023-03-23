@@ -26,7 +26,7 @@ const ProjectModal = (props) => {
           )) : ''}
         </ul>
         <ul className="list-inline list-group-horizontal">
-          <li className="list-unstyled">Featured:</li>
+          <li className="list-unstyled">Tech Stack:</li>
           {technologies ? technologies.map((t, i) => (
             <li className="list-unstyled" key={i}>
               <Badge bg="primary">{t}</Badge>
