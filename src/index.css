@@ -73,6 +73,16 @@ code {
   color: black;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(5);
+}
+
+.header-info {
+  padding: 2rem;
+  background-color: rgba(245, 245, 245, 0.3);
+}
+
 .portfolio-bg-color {
   height: 100vh;
   background: #e5e5e5;
@@ -120,6 +130,7 @@ code {
 
   /* scale the image to fill the container while maintaining aspect ratio */
 }
+
 
 .carousel-container {
   width: 100%;
@@ -182,11 +193,11 @@ code {
 }
 
 .hero-text p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
   padding: 0.5rem;
-  background-color: rgba(245, 245, 245, 0.3);
+  background-color: rgba(244, 247, 247, 0.7);
   border-radius: 1rem;
 }
 
