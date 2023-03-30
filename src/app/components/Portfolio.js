@@ -5,7 +5,6 @@ import {
   Container, Row, Col, Card, Badge, Button, Carousel,
 } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
 import ProjectModal from './Modal';
 import { projects } from '../../assets/js/project';
 
@@ -23,7 +22,6 @@ function Portfolio() {
   };
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <Navbar />
       <Container fluid className="portfolio-bg-color">
         <Container className="pt-5 pb-5">
           <Col className="my-0">

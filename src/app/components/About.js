@@ -6,12 +6,10 @@ import {
   Container, Row, Col, Image,
 } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
 
 function About() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <Navbar />
       <Container fluid className="about-me">
         <Row className="justify-content-center">
           <Col xs={12} sm={4} className="text-center">

@@ -6,7 +6,6 @@ import {
 } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
 
 function Home() {
   return (
@@ -15,13 +14,12 @@ function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
     >
-      <Navbar />
       <Container fluid className="hero-container">
         <Row>
           <Col md={6}>
             <div className="hero-text">
               <motion.h1
-                className="header-info"
+                className="header-info p-1 text-center"
                 initial={{ x: -100, opacity: 0 }}
                 whileHover={{ rotateY: 360, repeat: Infinity }}
                 animate={{ x: 0, opacity: 1 }}
@@ -39,13 +37,13 @@ function Home() {
                 frameworks, and technologies. He has expertise in both Front-End
                 and Back-End technologies, including JavaScript, React, Redux,
                 Ruby, Rails, MySQL, and DotNetCore WebAPI, among others. Julius
-                has worked on various projects, including SDMS, Math Magician, and
-                Todo App, and is currently a mentor at Microverse. Before
+                has worked on various projects, including SDMS, Math Magician,
+                and Todo App, and is currently a mentor at Microverse. Before
                 transitioning to web development, he worked as an Investment
                 Officer/DBA at Lords and Duchess Investment Ltd and a
-                Developer/Instructor at Solarays Update. Julius holds a degree in
-                Computer Science from Regent University College of Science and
-                Technology.
+                Developer/Instructor at Solarays Update. Julius holds a degree
+                in Computer Science from Regent University College of Science
+                and Technology.
               </motion.p>
               <NavLink to="/portfolio" className="btn btn-primary">
                 View Projects

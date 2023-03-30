@@ -4,10 +4,12 @@ import {
   BrowserRouter as Router,
 } from 'react-router-dom';
 import AnimatedRoutes from './app/components/AnimatedRoutes';
+import Navbar from './app/components/Navbar';
 
 function App() {
   return (
     <Router>
+      <Navbar />
       <AnimatedRoutes />
     </Router>
   );

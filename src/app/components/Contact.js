@@ -3,12 +3,10 @@
 import React from 'react';
 import { Form, Button, Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import Navbar from './Navbar';
 
 function Contact() {
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <Navbar />
       <Container fluid className="contact-bg pt-5">
         <motion.div initial={{ x: -100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: '2', delay: '1' }}>
           <Form className="my-5 mx-5 form-bg p-5">

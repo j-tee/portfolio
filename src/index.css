@@ -31,12 +31,13 @@ code {
 
 .hero-container {
   background-color: #c1b1b1;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-image: url('assets/imgs/home-bg1.jpg');
+  overflow: auto;
 }
 
 .hero-image {
@@ -181,10 +182,6 @@ code {
   transform: scale(1.05);
 }
 
-.hero-text {
-  padding: 20px;
-  text-align: center;
-}
 
 .hero-text h1 {
   font-size: 3rem;
